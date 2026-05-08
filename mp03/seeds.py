@@ -90,3 +90,20 @@ RETAIL_TICKERS = [
     # Grocery
     "KR",
 ]
+
+RETAIL_PHRASES = [
+    # Store openings
+    '"new store"',
+    '"store opening"',
+    '"grand opening"',
+    '"flagship store"',
+    # Store closings / consolidation
+    '"store closure"',
+    '"store closing"',
+    '"store closures"',
+    '"store consolidation"',
+    # Distribution / supply chain real estate
+    '"distribution center"',
+    '"fulfillment center"',
+]
+
