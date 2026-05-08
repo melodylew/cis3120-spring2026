@@ -72,3 +72,21 @@ TRAVEL_HOSPITALITY_PHRASES = [
     '"new terminal"',
     '"grand opening"',
 ]
+# ─────────────────────────────────────────────────────────────────────────────
+# Retail (added by Jenna: 14 companies across sub-segments)
+# ─────────────────────────────────────────────────────────────────────────────
+
+RETAIL_TICKERS = [
+    # Big-box / general merchandise
+    "WMT", "TGT", "COST",
+    # Home improvement
+    "HD", "LOW",
+    # Off-price / discount / dollar
+    "TJX", "ROST", "DG", "DLTR",
+    # Drug stores
+    "WBA", "CVS",
+    # Specialty
+    "BBY", "GPS",
+    # Grocery
+    "KR",
+]
