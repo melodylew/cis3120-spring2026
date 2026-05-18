@@ -79,13 +79,15 @@ FINANCIAL_SERVICES_PHRASES = [
 
 TRAVEL_HOSPITALITY_TICKERS = [
     # Hotels
-    "MAR", "HLT", "H", "CHH", "WH",
+    "MAR", "HLT", "H", "CHH", "WH", "IHG",
     # Cruise
-    "CCL", "RCL", "NCLH",
+    "CCL", "RCL", "NCLH", 
     # Airlines
-    "DAL", "UAL", "AAL", "LUV",
+    "DAL", "UAL", "AAL", "LUV", "JBLU",
     # Online travel
     "BKNG", "EXPE",
+    # Casino Resorts 
+    "MGM", "LVS", "WYNN",
 ]
 
 TRAVEL_HOSPITALITY_PHRASES = [
