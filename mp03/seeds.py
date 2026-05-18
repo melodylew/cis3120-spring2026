@@ -91,14 +91,29 @@ TRAVEL_HOSPITALITY_TICKERS = [
 ]
 
 TRAVEL_HOSPITALITY_PHRASES = [
+    # Hotels
     '"new property"',
     '"new hotel"',
     '"hotel opening"',
     '"resort opening"',
     '"property opening"',
     '"brand conversion"',
+    '"hotel franchise"',
+    '"resort expansion"',
+    # Airlines
     '"new route"',
     '"new gateway"',
     '"new terminal"',
+    '"new nonstop"',
+    '"new lounge"',
+    # Cruise
+    '"new ship"',
+    '"port of call"',
+    '"new cruise terminal"',
+    '"homeport"',
+    '"inaugural sailing"',
+    # Casino/entertainment 
+    '"casino opening"',
     '"grand opening"',
+    '"new gaming facility"',
 ]
