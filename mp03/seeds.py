@@ -16,7 +16,7 @@ Reference: docs/MP03_Assignment.docx, Section 3.
 """
 
 # ──────────────────────────────────────────────────────────────────────────
-#  Financial Services (default seed: 14 companies across sub-segments)
+#  Financial Services (Team 10 expanded: 25 tickers, 23 phrases)
 # ──────────────────────────────────────────────────────────────────────────
 
 FINANCIAL_SERVICES_TICKERS = [
@@ -40,4 +40,63 @@ FINANCIAL_SERVICES_TICKERS = [
     "MET", "PRU",
     # Payments (seed)
     "V", "MA", "AXP",
+]
+
+FINANCIAL_SERVICES_PHRASES = [
+    # Retail branch language (seed)
+    '"new branch"',
+    '"branch opening"',
+    '"branch closure"',
+    '"branch closing"',
+    '"branch consolidation"',
+    '"regional office"',
+    '"office closure"',
+    '"operations center"',
+    '"data center"',
+    '"new location"',
+    # Corporate real estate: HQ moves and lease decisions
+    '"headquarters relocation"',
+    '"relocate its headquarters"',
+    '"new headquarters"',
+    '"lease termination"',
+    '"office relocation"',
+    # Capital-markets specific infrastructure
+    '"trading floor"',
+    '"matching engine"',
+    '"exchange floor"',
+    # Consolidation activity not using branch
+    '"footprint reduction"',
+    '"consolidate operations"',
+    '"office consolidation"',
+    # Expansion language to balance the corpus
+    '"expanded presence"',
+    '"new office"',
+]
+
+# ──────────────────────────────────────────────────────────────────────────
+#  Travel and Hospitality (default seed: 14 companies across sub-segments)
+# ──────────────────────────────────────────────────────────────────────────
+
+TRAVEL_HOSPITALITY_TICKERS = [
+    # Hotels
+    "MAR", "HLT", "H", "CHH", "WH",
+    # Cruise
+    "CCL", "RCL", "NCLH",
+    # Airlines
+    "DAL", "UAL", "AAL", "LUV",
+    # Online travel
+    "BKNG", "EXPE",
+]
+
+TRAVEL_HOSPITALITY_PHRASES = [
+    '"new property"',
+    '"new hotel"',
+    '"hotel opening"',
+    '"resort opening"',
+    '"property opening"',
+    '"brand conversion"',
+    '"new route"',
+    '"new gateway"',
+    '"new terminal"',
+    '"grand opening"',
 ]
