@@ -20,55 +20,24 @@ Reference: docs/MP03_Assignment.docx, Section 3.
 # ──────────────────────────────────────────────────────────────────────────
 
 FINANCIAL_SERVICES_TICKERS = [
-    # Money-center banks
+    # Money-center banks (seed)
     "JPM", "BAC", "WFC", "C",
-    # Regional banks
+    # Regional banks (seed)
     "PNC", "USB", "TFC",
-    # Asset management
-    "BLK", "BX",
-    # Insurance
+    # Mid-cap regionals - active branch consolidation filers
+    "FITB", "RF", "KEY",
+    # Capital markets / investment banks - closes biggest seed gap
+    "GS", "MS",
+    # Asset management (seed + KKR added)
+    "BLK", "BX", "KKR",
+    # Custody / trust banks - largest ops centers in the industry
+    "BK", "STT", "NTRS",
+    # Exchanges - data-center and matching-engine relocations
+    "ICE", "CME", "NDAQ",
+    # Brokerage and consumer finance
+    "SCHW", "ALLY",
+    # Insurance (seed)
     "MET", "PRU",
-    # Payments
+    # Payments (seed)
     "V", "MA", "AXP",
-]
-
-FINANCIAL_SERVICES_PHRASES = [
-    '"new branch"',
-    '"branch opening"',
-    '"branch closure"',
-    '"branch closing"',
-    '"branch consolidation"',
-    '"regional office"',
-    '"office closure"',
-    '"operations center"',
-    '"data center"',
-    '"new location"',
-]
-
-# ──────────────────────────────────────────────────────────────────────────
-#  Travel and Hospitality (default seed: 14 companies across sub-segments)
-# ──────────────────────────────────────────────────────────────────────────
-
-TRAVEL_HOSPITALITY_TICKERS = [
-    # Hotels
-    "MAR", "HLT", "H", "CHH", "WH",
-    # Cruise
-    "CCL", "RCL", "NCLH",
-    # Airlines
-    "DAL", "UAL", "AAL", "LUV",
-    # Online travel
-    "BKNG", "EXPE",
-]
-
-TRAVEL_HOSPITALITY_PHRASES = [
-    '"new property"',
-    '"new hotel"',
-    '"hotel opening"',
-    '"resort opening"',
-    '"property opening"',
-    '"brand conversion"',
-    '"new route"',
-    '"new gateway"',
-    '"new terminal"',
-    '"grand opening"',
 ]
