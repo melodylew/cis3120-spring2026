@@ -73,7 +73,7 @@ TRAVEL_HOSPITALITY_PHRASES = [
     '"grand opening"',
 ]
 # ─────────────────────────────────────────────────────────────────────────────
-# Retail (added by Jenna: 14 companies across sub-segments)
+# Retail (added by Jenna: 20 companies across nine sub-segments)
 # ─────────────────────────────────────────────────────────────────────────────
 
 RETAIL_TICKERS = [
