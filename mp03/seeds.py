@@ -89,6 +89,17 @@ RETAIL_TICKERS = [
     "BBY", "GPS",
     # Grocery
     "KR",
+    # Additional sub-segments (extended by Jenna)
+    # Department stores
+    "M", "KSS",
+    # Off-price extension
+    "BURL",
+    # Beauty specialty
+    "ULTA",
+    # Discount specialty
+    "FIVE",
+    # Auto retail
+    "AAP",
 ]
 
 RETAIL_PHRASES = [
