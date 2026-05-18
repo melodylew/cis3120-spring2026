@@ -116,5 +116,12 @@ RETAIL_PHRASES = [
     # Distribution / supply chain real estate
     '"distribution center"',
     '"fulfillment center"',
+    # Additional phrases (extended by Jenna)
+    '"new location"',
+    '"warehouse opening"',
+    '"distribution facility"',
+    '"store relocation"',
+    '"new format"',
+    '"omnichannel hub"',
 ]
 
