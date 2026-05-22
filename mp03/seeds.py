@@ -16,34 +16,23 @@ Reference: docs/MP03_Assignment.docx, Section 3.
 """
 
 # ──────────────────────────────────────────────────────────────────────────
-#  Financial Services (Team 10 expanded: 25 tickers, 23 phrases)
+#  Financial Services (default seed: 14 companies across sub-segments)
 # ──────────────────────────────────────────────────────────────────────────
 
 FINANCIAL_SERVICES_TICKERS = [
-    # Money-center banks (seed)
+    # Money-center banks
     "JPM", "BAC", "WFC", "C",
-    # Regional banks (seed)
+    # Regional banks
     "PNC", "USB", "TFC",
-    # Mid-cap regionals - active branch consolidation filers
-    "FITB", "RF", "KEY",
-    # Capital markets / investment banks - closes biggest seed gap
-    "GS", "MS",
-    # Asset management (seed + KKR added)
-    "BLK", "BX", "KKR",
-    # Custody / trust banks - largest ops centers in the industry
-    "BK", "STT", "NTRS",
-    # Exchanges - data-center and matching-engine relocations
-    "ICE", "CME", "NDAQ",
-    # Brokerage and consumer finance
-    "SCHW", "ALLY",
-    # Insurance (seed)
+    # Asset management
+    "BLK", "BX",
+    # Insurance
     "MET", "PRU",
-    # Payments (seed)
+    # Payments
     "V", "MA", "AXP",
 ]
 
 FINANCIAL_SERVICES_PHRASES = [
-    # Retail branch language (seed)
     '"new branch"',
     '"branch opening"',
     '"branch closure"',
@@ -54,44 +43,37 @@ FINANCIAL_SERVICES_PHRASES = [
     '"operations center"',
     '"data center"',
     '"new location"',
-    # Corporate real estate: HQ moves and lease decisions
-    '"headquarters relocation"',
-    '"relocate its headquarters"',
-    '"new headquarters"',
-    '"lease termination"',
-    '"office relocation"',
-    # Capital-markets specific infrastructure
-    '"trading floor"',
-    '"matching engine"',
-    '"exchange floor"',
-    # Consolidation activity not using branch
-    '"footprint reduction"',
-    '"consolidate operations"',
-    '"office consolidation"',
-    # Expansion language to balance the corpus
-    '"expanded presence"',
-    '"new office"',
 ]
 
 # ──────────────────────────────────────────────────────────────────────────
 #  Travel and Hospitality (default seed: 14 companies across sub-segments)
 # ──────────────────────────────────────────────────────────────────────────
-
 TRAVEL_HOSPITALITY_TICKERS = [
-    # Hotels
+    # Hotel brands
     "MAR", "HLT", "H", "CHH", "WH", "IHG",
+    "PK", "HST", "RHP", "SHO", "PEB", "APLE", "DRH",
+    "XHR", "CLDT","VAC", "TNL", "HGV", "PLYA", "SOND",
     # Cruise
-    "CCL", "RCL", "NCLH", 
+    "CCL", "RCL", "NCLH",
+    "VIK", "ACEL",
     # Airlines
-    "DAL", "UAL", "AAL", "LUV", "JBLU",
-    # Online travel
-    "BKNG", "EXPE",
-    # Casino Resorts 
-    "MGM", "LVS", "WYNN",
+    "DAL", "UAL", "AAL", "LUV", "JBLU", "ALK", "ULCC",
+    "SKYW", "SNCY", "HA", "MESA", "ATSG", "JOBY",  "ACHR", "BBY", "RJET",
+    # Online travel / booking
+    "BKNG", "EXPE", "TRIP", "ABNB", "VACQ", "TRVG", "MMYT",
+    # Casino / Resorts
+    "MGM", "LVS", "WYNN", "CZR", "PENN", "FUN",
+    "BYD", "MLCO", "AGS", "SGMS", "CHDN", "DKNG",
+    "RSI", "GDEN", "FULL",
+    # Theme parks / attractions 
+    "DIS", "SIX", "SEAS", "PLBY", "EPR", "CNK",  
+    # Car rental / ground transportation 
+    "HTZ", "CAR", "UBER", "LYFT",
+    "BLDE", "WKHS", 
 ]
 
 TRAVEL_HOSPITALITY_PHRASES = [
-    # Hotels
+    # Hotels 
     '"new property"',
     '"new hotel"',
     '"hotel opening"',
@@ -100,20 +82,73 @@ TRAVEL_HOSPITALITY_PHRASES = [
     '"brand conversion"',
     '"hotel franchise"',
     '"resort expansion"',
+    '"new resort"',
+    '"hotel acquisition"',
+    '"property acquisition"',
+    '"new full-service"',
+    '"new select-service"',
+    '"new boutique"',           
+    '"all-inclusive resort"',   
+    '"vacation club"',          
+    '"new timeshare"',          
+    '"luxury hotel"',           
+    '"new inn"',                
+    '"extended stay"',         
     # Airlines
     '"new route"',
     '"new gateway"',
     '"new terminal"',
     '"new nonstop"',
     '"new lounge"',
+    '"new service"',
+    '"new flight"',
+    '"new hub"',
+    '"new concourse"',          
+    '"new maintenance"',        
+    '"new crew base"',          
+    '"new training center"',    
     # Cruise
     '"new ship"',
     '"port of call"',
     '"new cruise terminal"',
     '"homeport"',
     '"inaugural sailing"',
-    # Casino/entertainment 
+    '"new itinerary"',
+    '"new deployment"',         
+    '"new embarkation"',        
+    '"private island"',         
+    '"new destination"',
+    # Casino / gaming
     '"casino opening"',
     '"grand opening"',
-    '"new gaming facility"',
+    '"new casino"',
+    '"new gaming"',
+    '"casino expansion"',
+    '"new sportsbook"',
+    '"retail sportsbook"',
+    '"new poker"',              
+    '"gaming expansion"',       
+    '"new entertainment venue"',
+    # Theme parks / attractions 
+    '"new attraction"',
+    '"park expansion"',
+    '"new theme park"',
+    '"new experience"',
+    '"new ride"',               
+    '"new land"',               
+    '"new exhibit"',            
+    '"new entertainment"',      
+    # Car rental / ground transportation 
+    '"new location"',
+    '"new facility"',
+    '"new terminal facility"',
+    '"fleet expansion"',
+    '"new rental"',             
+    '"rental location"',
+    '"new shuttle"',
+    # Air mobility
+    '"new vertiport"',          
+    '"new skyport"',           
+    '"new air mobility"',      
+    '"new charter"',
 ]
