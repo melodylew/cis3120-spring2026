@@ -53,6 +53,9 @@ FINANCIAL_SERVICES_TICKERS = [
     "CHCO", "BSVN", "CFFI", "MOFG", "PPBI", "WABC", "TFSL",
     # Specialty/consumer finance
     "NAVI", "ENVA",
+    "NKSH", "UNTY", "FMCB", "AROW", "AMTB", "FSEA", "FUNC",
+    "CZWI", "EFSC", "FNWB", "HBT", "SBSI", "SFBC", "CNOB",
+    "AUB", "SSB", "KRNY", "FRST", "BANR", "RM",
 ]
 
 FINANCIAL_SERVICES_PHRASES = [
@@ -138,6 +141,10 @@ FINANCIAL_SERVICES_PHRASES = [
     '"new location at"',
     '"moving to"',
     '"moved to"',
+    '"new branch opening"',
+    '"branch grand opening"',
+    '"opened its doors"',
+    '"open for business"',
 ]
 
 # ──────────────────────────────────────────────────────────────────────────
