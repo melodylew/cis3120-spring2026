@@ -16,13 +16,13 @@ Reference: docs/MP03_Assignment.docx, Section 3.
 """
 
 # ──────────────────────────────────────────────────────────────────────────
-#  Financial Services (Team 10 expanded: 25 tickers, 23 phrases)
+#  Financial Services (default seed: 14 companies across sub-segments)
 # ──────────────────────────────────────────────────────────────────────────
 
 FINANCIAL_SERVICES_TICKERS = [
-    # Money-center banks (seed)
+    # Money-center banks
     "JPM", "BAC", "WFC", "C",
-    # Regional banks (seed)
+    # Regional banks
     "PNC", "USB", "TFC",
     # Mid-cap regionals
     "FITB", "RF", "KEY", "ZION", "CFG", "HBAN", "MTB", "FHN",
@@ -59,7 +59,6 @@ FINANCIAL_SERVICES_TICKERS = [
 ]
 
 FINANCIAL_SERVICES_PHRASES = [
-    # Retail branch language (seed)
     '"new branch"',
     '"branch opening"',
     '"branch closure"',
@@ -150,28 +149,78 @@ FINANCIAL_SERVICES_PHRASES = [
 # ──────────────────────────────────────────────────────────────────────────
 #  Travel and Hospitality (default seed: 14 companies across sub-segments)
 # ──────────────────────────────────────────────────────────────────────────
-
 TRAVEL_HOSPITALITY_TICKERS = [
-    # Hotels
-    "MAR", "HLT", "H", "CHH", "WH",
+    # Hotel brands
+    "MAR", "HLT", "H", "CHH", "WH", "IHG",
+    "PK", "HST", "RHP", "SHO", "PEB", "APLE", "DRH",
+    "XHR", "CLDT","VAC", "TNL", "HGV", "PLYA", "SOND",
     # Cruise
     "CCL", "RCL", "NCLH",
+    "VIK", "ACEL",
     # Airlines
-    "DAL", "UAL", "AAL", "LUV",
-    # Online travel
-    "BKNG", "EXPE",
+    "DAL", "UAL", "AAL", "LUV", "JBLU", "ALK", "ULCC",
+    "SKYW", "SNCY", "HA", "MESA", "ATSG", "JOBY",  "ACHR", "BBY", "RJET",
+    # Online travel / booking
+    "BKNG", "EXPE", "TRIP", "ABNB", "VACQ", "TRVG", "MMYT",
+    # Casino / Resorts
+    "MGM", "LVS", "WYNN", "CZR", "PENN", "FUN",
+    "BYD", "MLCO", "AGS", "SGMS", "CHDN", "DKNG",
+    "RSI", "GDEN", "FULL",
+    # Theme parks / attractions 
+    "DIS", "SIX", "SEAS", "PLBY", "EPR", "CNK",  
+    # Car rental / ground transportation 
+    "HTZ", "CAR", "UBER", "LYFT",
+    "BLDE", "WKHS", 
 ]
 
 TRAVEL_HOSPITALITY_PHRASES = [
+    # Hotels 
     '"new property"',
     '"new hotel"',
     '"hotel opening"',
     '"resort opening"',
     '"property opening"',
     '"brand conversion"',
+    '"hotel franchise"',
+    '"resort expansion"',
+    '"new resort"',
+    '"hotel acquisition"',
+    '"property acquisition"',
+    '"new full-service"',
+    '"new select-service"',
+    '"new boutique"',           
+    '"all-inclusive resort"',   
+    '"vacation club"',          
+    '"new timeshare"',          
+    '"luxury hotel"',           
+    '"new inn"',                
+    '"extended stay"',         
+    # Airlines
     '"new route"',
     '"new gateway"',
     '"new terminal"',
+    '"new nonstop"',
+    '"new lounge"',
+    '"new service"',
+    '"new flight"',
+    '"new hub"',
+    '"new concourse"',          
+    '"new maintenance"',        
+    '"new crew base"',          
+    '"new training center"',    
+    # Cruise
+    '"new ship"',
+    '"port of call"',
+    '"new cruise terminal"',
+    '"homeport"',
+    '"inaugural sailing"',
+    '"new itinerary"',
+    '"new deployment"',         
+    '"new embarkation"',        
+    '"private island"',         
+    '"new destination"',
+    # Casino / gaming
+    '"casino opening"',
     '"grand opening"',
 ]
 # ─────────────────────────────────────────────────────────────────────────────
